@@ -2,14 +2,31 @@
   "name": "demo",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "devDependencies": {
+    "@types/history": "^4.7.2",
     "@types/jest": "24.0.16",
+    "@types/lodash": "^4.14.136",
     "@types/node": "12.6.9",
     "@types/react": "16.8.24",
     "@types/react-dom": "16.8.5",
+    "@types/react-router": "^5.0.3",
+    "@types/redux-actions": "^2.6.1"
+  },
+  "dependencies": {
+    "@types/react-redux": "^7.1.1",
+    "connected-react-router": "^6.5.2",
+    "history": "^4.9.0",
+    "immer": "^3.1.4",
+    "lodash": "^4.17.15",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
     "react-scripts": "3.0.1",
+    "redux": "^4.0.4",
+    "redux-actions": "^2.6.5",
+    "redux-saga": "^1.0.5",
+    "reselect": "^4.0.0",
     "typescript": "3.5.3"
   },
   "scripts": {
